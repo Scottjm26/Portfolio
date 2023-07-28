@@ -1,0 +1,219 @@
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    color:aliceblue;
+    top:-10px;
+    height:150px;
+    position:fixed;
+    width: 100%;
+    
+}
+section{
+    height:80rem;
+}
+#name-div{
+    margin-left: 150px;
+    font-size:2em;
+}
+#section-one{
+    margin:0px;
+    padding:0px;
+    height:80rem;
+    background: url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    margin-right:150px;
+}
+li{
+    margin-right: 20px;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+li:hover{
+    color:rgb(6, 125, 216);
+    cursor: pointer;
+    
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    color:white;
+    background-size: cover;
+}
+
+h1{
+    font-size:3rem;
+    color:rgb(224, 32, 227);
+    text-shadow: 2px 2px 10px black;
+    
+
+}
+p{
+    font-size:1.8rem;
+    text-shadow: 2px 2px 10px black;
+    color: rgb(233, 231, 231);
+}
+#me{
+    width: 20rem;
+    height:20rem;
+    border-radius: 200px;
+   
+ 
+    
+}
+img{width:70px;
+    height:70px;
+    margin-left: 20px;
+   
+}
+.section-one{
+    padding-top: 400px;
+    display:flex;
+    width:1000px;
+    margin:0 auto;
+   
+    
+}
+
+.icon{
+    filter: invert(25%);
+    height:50px;
+    width:50px;
+    margin:0px;
+    margin-right:20px;
+}
+.icon:hover{
+filter: invert(55%);
+}
+
+#stack{
+    padding-top:100px;
+    display:flex;
+    justify-content: start;
+    margin:0 auto;
+    align-items: center;
+    font-size:2rem;
+    width:1000px;
+}
+#react-icon{
+    width:80px;
+}
+#section-two{
+    background-color: black;
+    background-size:cover;
+}
+#about-me-container{
+    display: flex;
+        align-items: center;
+        width: 1000px;
+        color: rgb(214, 214, 214);
+        margin: 0 auto;
+        height: 80rem;
+}
+
+#about-me{
+    margin-left:160px;
+}
+
+#section-two-image{
+    width:30rem;
+    height:30rem;
+    border-radius:50px;
+    margin-left:100px;
+}
+
+h3{
+    font-size:1.2rem;
+}
+#about-me-text{
+    font-size:2.8rem;
+}
+
+#section-three{
+    background-color:rgb(9, 29, 57);
+    
+
+}
+#section-three-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    min-width:400px;
+    max-width:1200px;
+    margin:0 auto;
+    padding-top: 130px;
+}
+.portfolio-image{
+    width:300px;
+    height:400px;
+    
+}
+.portfolio-items{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:40px;
+
+}
+#section-four{
+    background-color: rgb(32, 55, 93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+#contact-title{
+    text-align: center;
+    margin-right:160px;
+    margin-bottom:290px;
+    
+}
+#form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#submit-button{
+border-radius:150px;
+width:200px;
+height:40px;
+margin: 0 auto;
+background-color:white;
+font-size:1rem;
+font-weight:700;
+
+}
+#submit-button:hover{
+color:white;
+background-color:rgb(6, 125, 216);
+    cursor: pointer;
+}
+#name, #email{
+    height: 30px;
+    border-radius: 150px;
+    width:300px;
+    font-size:25px;
+    text-align: center;
+}
+#message{
+    width:300px;
+    height:150px;
+    border-radius:50px;
+    margin-bottom:40px;
+    font-size: 25px;
+        text-align: center;
+}

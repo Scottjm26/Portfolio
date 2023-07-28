@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+   <section id="section-one">
+        <header>
+            <div id="name-div">
+                JS.Dev
+            </div>
+             <div id="header-button-container">
+                <ul>
+                    <li type="button" onClick="document.getElementById('section-one').scrollIntoView();">Home</li>
+                    <li type="button" onClick="document.getElementById('section-two').scrollIntoView();">About</li>
+                    <li type="button" onClick="document.getElementById('section-three').scrollIntoView();">Portfolio</li>
+                    <li type="button" onClick="document.getElementById('section-four').scrollIntoView();">Contact</li>
+                    <li></li>
+        
+                </ul>
+            </div>
+        </header>
+
+        <div class="section-one">
+            <div>
+                <h1>Front-End Web Developer.</h1>
+                <p>Hello, I'm Joshua Scott. A passionate Front-End Web Developer.</p>
+                    <div>
+                        <img class="icon" src="images/Github_white.png"/>
+                        <img class="icon" id="linkedin-icon" src="images/LinkedIN_white.png">
+                    </div>
+            </div>
+            <img id ="me" src="images/new me.jpg"/>
+        </div>
+
+        <div id = stack>
+            <h2>Tech Stack:</h2>
+            <img src="images/pngwing.com (2).png"/>
+            <img src="images/pngwing.com (5).png" />
+            <img src="images/pngwing.com (1).png" />
+            <img src="images/React-icon.svg.png" id="react-icon" />
+            <img src="images/python.png" />
+
+        </div>
+
+    </section>
+    
+    <section id="section-two">
+        <div id="about-me-container">
+                <img id = "section-two-image" src="images/background3.jpg"/>
+        
+            <div id="about-me">
+                <h2 id = "about-me-text">About Me</h2>
+                <h3>As a creative and dedicated Web Developer from the state of Oklahoma I'm passionate about creating interactive and dynamic websites using my skills in Html, Css, Javascript, and React. As a team player I delight in collaborating to create beautiful fully functional websites.  </h3>
+                <h3>In my leisure I enjoy photography, and am currently saving for a telescope to start pursuing astrophotograpy. </h3>
+            
+            </div>
+        </div>
+    </section>
+    <section id ="section-three">
+        <div id = "section-three-div">
+            <div class = "portfolio-items">
+                <h3>Etch-a-sketch</h3>
+                <a href="https://scottjm26.github.io/etch-a-sketch/">
+                <img class="portfolio-image" src="images/etch copy 2.jpg">
+                </a>
+            </div>
+
+            <div class="portfolio-items">
+                <h3>Movie Watchlist</h3>
+                <a href="https://snazzy-shortbread-1acdc5.netlify.app/">
+                <img class="portfolio-image" src="images/watchlist 2 copy.jpg">
+                </a>
+            </div>
+
+            <div class="portfolio-items">
+                <h3>Color Scheme Generator</h3>
+                <a href="https://scottjm26.github.io/Color-Scheme-gererator/">
+                <img class="portfolio-image" src="images/gener copy.jpg">
+                </a>
+            </div>
+
+            <div class="portfolio-items">
+                <h3>Tindog(tinder for dogs)</h3>
+                <a href="https://sprightly-marzipan-4abc8a.netlify.app/">
+                <img class="portfolio-image" src="images/tindog.jpg">
+                </a>
+            </div>
+
+            <div class="portfolio-items">
+                <h3>Food App</h3>
+                <a href="https://graceful-hotteok-e1a2b0.netlify.app/">
+                <img class="portfolio-image" src="images/Food app.JPG">
+                </a>
+            </div>
+
+            <div class="portfolio-items">
+                <h3>Travel-Journal</h3>
+                <a href="https://scottjm26.github.io/Travel--Journal/">
+                <img class="portfolio-image" src="images/travel-journal.jpg">
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="section-four">
+        <div id="contact-title">
+            <h1>Contact</h1>
+            <h2>Let's Talk</h2>
+        </div>
+        <div id="form">
+            <form action="https://formsubmit.co/scottjm@nsuok.edu" method="POST">
+                <h3>Full Name</h3>
+                <input id ="name" type="text" name="name" required>
+                <h3>Email</h3>
+                <input id="email" type="email" name="email" required>
+                <h3>Message</h3>
+                <input id ="message" type="text" name="message" required>
+                <button id = "submit-button" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    
+
+
+
+
+</body>
+
+<script src="index.js"></script>
+</html>
