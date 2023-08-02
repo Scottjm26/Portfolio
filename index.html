@@ -1,67 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta charset="UTF-8">
+    
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-   <section id="section-one">
-        <header>
-            <div id="name-div">
-                JS.Dev
-             </div>
-                <!-- <div id="header-button-container">
-                    <ul id ="header-buttons">
-                    <li type="button" onClick="document.getElementById('section-one').scrollIntoView();">Home</li>
-                    <li type="button" onClick="document.getElementById('section-two').scrollIntoView();">About</li>
-                    <li type="button" onClick="document.getElementById('section-three').scrollIntoView();">Portfolio</li>
-                    <li type="button" onClick="document.getElementById('section-four').scrollIntoView();">Contact</li>
-                    <li></li>
-        
-                    </ul>
-            </div> --> 
-            
-            <div class="container">
-                <nav class="navbar">
-                    
-                    <ul class="nav-menu">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="hamburger"id="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                </nav>
-            </div>
-           
-        </header>
-        
+<header class="header">
+    <a href="" class="logo">JS.Dev</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+        <li><a href="#work">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#careers">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</header>
 
+<section id="section-one">
         <div class="section-one">
-            <div>
-                <h1>Front-End Web Developer.</h1>
-                <p>Hello, I'm Joshua Scott. A passionate Front-End Web Developer.</p>
-                    <div>
-                        <img class="icon" src="images/Github_white.png"/>
-                        <img class="icon" id="linkedin-icon" src="images/LinkedIN_white.png">
-                    </div>
+            <div id="section-one-text">
+                <h1 id="developer-text">Front-End Web Developer.</h1>
+                <p id = "name-text">Hello, I'm Joshua Scott. A passionate Front-End Web Developer.</p>
             </div>
-            <img id ="me" src="images/new me.jpg"/>
+                <img id ="me" src="images/new me.jpg"/>
         </div>
 
         <div id = "stack">
@@ -73,6 +39,10 @@
             <img id="stack-image" src="images/python.png" />
 
         </div>
+            <div id="section-one-icons">
+                <img class="icon" src="images/Github_white.png" />
+                <img class="icon" id="linkedin-icon" src="images/LinkedIN_white.png">
+            </div>
 
     </section>
     
