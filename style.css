@@ -1,6 +1,7 @@
 body {
     margin: 0;
     color:white;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
     
 }
 
@@ -131,14 +132,15 @@ h1 {
 }
 
 #section-one {
-    background-image: url("images/background.jpg");
+    background-image: url("images/background.jpg"); 
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    height: 50rem;
+    height:50rem;
+    
 
    
     
@@ -168,7 +170,7 @@ h1 {
 
 
 @media (min-width: 768px) {
-    .header li {
+    /* .header li {
         float: left;
     }
 
@@ -184,6 +186,46 @@ h1 {
 
     .header .menu-icon {
         display: none;
+    } */
+    h1 {
+        font-size: 2.5rem;
+    
+    }
+
+    #developer-text{
+        padding-bottom:.5rem;
+    }
+    #name-text {
+        font-size:1.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    #section-one {
+      height:70rem;
+    }
+    
+    #section-one-icons {
+       padding-top:7rem;
+       
+    }
+    h2{
+        font-size:1.75rem;
+    }
+    
+    .icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    #me {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+    }
+    
+    #stack-image {
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
 
@@ -191,3 +233,72 @@ img{
     width:200px;
 }
 
+@media (min-width: 1025px) {
+ * .header li {
+        float: left;
+    }
+
+    .header li a {
+        padding: 20px 50px 0px 0px;
+        background-color:transparent;
+        font-size:1.2rem;
+    }
+    .header li a:hover{
+        color:rgb(189, 30, 157)
+    }
+
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+    h1 {
+        font-size: 3.2rem;
+    
+    }
+
+    #developer-text{
+        padding-bottom:.5rem;
+    }
+    #name-text {
+        font-size:1.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    #section-one {
+      height:70rem;
+    }
+    .section-one{
+        display:flex;
+        align-items: center;
+    }
+    
+    #section-one-icons {
+       padding-top:7rem;
+       
+    }
+    h2{
+        font-size:2.75rem;
+    }
+    
+    .icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    #me {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+    }
+    
+    #stack-image {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+}
