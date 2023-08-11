@@ -14,10 +14,10 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-        <li><a href="#work">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#careers">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#section-one">Home</a></li>
+        <li><a href="#section-two">About</a></li>
+        <li><a href="#section-three">Portfolio</a></li>
+        <li><a href="#section-four">Contact</a></li>
     </ul>
 </header>
 
@@ -40,8 +40,10 @@
 
         </div>
             <div id="section-one-icons">
-                <img class="icon" src="images/Github_white.png" />
-                <img class="icon" id="linkedin-icon" src="images/LinkedIN_white.png">
+                <a class="icon" id="github-icon" href="https://github.com/Scottjm26"></a>
+                <a class="icon" id="linkedin-icon" href="https://www.linkedin.com/in/joshua-scott-4a93b8136/"></a>
+                <!-- <img class="icon" src="images/Github_white.png" />
+                <img class="icon" id="linkedin-icon" src="images/LinkedIN_white.png"> -->
             </div>
 
     </section>
@@ -61,42 +63,42 @@
     <section id ="section-three">
         <div id = "section-three-div">
             <div class = "portfolio-items">
-                <h3>Etch-a-sketch</h3>
+                <h3 id ="project-title">Etch-a-sketch</h3>
                 <a href="https://scottjm26.github.io/etch-a-sketch/">
                 <img class="portfolio-image" src="images/etch copy 2.jpg">
                 </a>
             </div>
 
             <div class="portfolio-items">
-                <h3>Movie Watchlist</h3>
+                <h3 id ="project-title">Movie Watchlist</h3>
                 <a href="https://snazzy-shortbread-1acdc5.netlify.app/">
                 <img class="portfolio-image" src="images/watchlist 2 copy.jpg">
                 </a>
             </div>
 
             <div class="portfolio-items">
-                <h3>Color Scheme Generator</h3>
+                <h3 id ="project-title">Color Scheme Generator</h3>
                 <a href="https://scottjm26.github.io/Color-Scheme-gererator/">
                 <img class="portfolio-image" src="images/gener copy.jpg">
                 </a>
             </div>
 
             <div class="portfolio-items">
-                <h3>Tindog(tinder for dogs)</h3>
+                <h3 id ="project-title">Tindog(tinder for dogs)</h3>
                 <a href="https://sprightly-marzipan-4abc8a.netlify.app/">
                 <img class="portfolio-image" src="images/tindog.jpg">
                 </a>
             </div>
 
             <div class="portfolio-items">
-                <h3>Food App</h3>
+                <h3 id ="project-title">Food App</h3>
                 <a href="https://graceful-hotteok-e1a2b0.netlify.app/">
                 <img class="portfolio-image" src="images/Food app.jpg">
                 </a>
             </div>
 
             <div class="portfolio-items">
-                <h3>Travel-Journal</h3>
+                <h3 id ="project-title">Travel-Journal</h3>
                 <a href="https://scottjm26.github.io/Travel--Journal/">
                 <img class="portfolio-image" src="images/travel-journal.jpg">
                 </a>
@@ -112,11 +114,11 @@
         </div>
         <div id="form">
             <form action="https://formsubmit.co/scottjm@nsuok.edu" method="POST">
-                <h3>Full Name</h3>
+                <h3 id="contact-form">Full Name</h3>
                 <input id ="name" type="text" name="name" required>
-                <h3>Email</h3>
+                <h3 id="contact-form">Email</h3>
                 <input id="email" type="email" name="email" required>
-                <h3>Message</h3>
+                <h3 id="contact-form">Message</h3>
                 <input id ="message" type="text" name="message" required>
                 <button id = "submit-button" type="submit">Send</button>
             </form>
